@@ -1,12 +1,12 @@
-#include <stdio.h>
+5.     #include <stdio.h>
+int main()
+{
+    int a,b,sum;
+    scanf("%d %d",&a,&b);
 
-int main() {
-    int a , b;
-    if (scanf("%d %d",&a,&b == 2)){
-        printf("sum: %d\n" , a + b);
-    }
-    else{
-        printf("Invalid input.\n");
-    }
+    sum=a+b;
+
+    printf("Sum: %d",sum);
+
     return 0;
 }
