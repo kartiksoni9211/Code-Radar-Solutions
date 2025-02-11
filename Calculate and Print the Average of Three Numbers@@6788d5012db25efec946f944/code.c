@@ -1,13 +1,14 @@
-#include <stdio.h>
+11.     #include <stdio.h>
 int main()
 {
-    int age;
-    char name[100],hobby[100];
+    int a,b,c;
+    float avg;
 
-    scanf("%s %d %s",&name,&age,&hobby);
+    scanf("%d %d %d",&a,&b,&c);
+
+    avg= (a+b+c)/3.00;
+
+    printf("Average: %.2f",avg);
     
-    printf("Name: %s",name);
-    printf("\nAge: %d",age);
-    printf("\nHobby: %s",hobby);
     return 0;
 }
