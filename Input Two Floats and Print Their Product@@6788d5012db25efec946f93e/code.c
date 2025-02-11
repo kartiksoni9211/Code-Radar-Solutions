@@ -1,10 +1,13 @@
-#include <stdio.h>
+7.   #include <stdio.h>
+int main()
+{
+    float a,b,product;
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+    scanf("%f %f",&a,&b);
 
-int main() {
-    printf("%s", welcome());
+    product= a*b;
+
+    printf("Product: %.2f",product);
+
     return 0;
 }
