@@ -23,7 +23,7 @@ int main() {
 
     // Output whether the array is sorted or not
     if(sorted) {
-        printf("Sorted.\n");
+        printf("Sorted\n");
     } else {
         printf("Not sorted\n");
     }
