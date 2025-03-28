@@ -5,29 +5,21 @@ int main() {
     
     scanf("%d", &n);
     int arr[n];
-
-
-    
     for(i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
-    // Check if the array is sorted
-    int sorted = 1;  // Assume the array is sorted initially
+    int sorted = 1; 
     for(i = 0; i < n - 1; i++) {
         if(arr[i] > arr[i + 1]) {
-            sorted = 0;  // The array is not sorted
+            sorted = 0;  
             break;
         }
     }
-
-    // Output whether the array is sorted or not
     if(sorted) {
         printf("Sorted\n");
     } else {
         printf("Not Sorted\n");
     }
-
     return 0;
 }
 
