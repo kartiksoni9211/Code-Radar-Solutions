@@ -23,9 +23,9 @@ int main() {
 
     // Output whether the array is sorted or not
     if(sorted) {
-        printf("The array is sorted.\n");
+        printf("Sorted.\n");
     } else {
-        printf("The array is not sorted.\n");
+        printf("Not sorted.\n");
     }
 
     return 0;
