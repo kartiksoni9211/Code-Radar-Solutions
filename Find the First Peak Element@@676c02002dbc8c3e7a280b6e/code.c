@@ -1,5 +1,5 @@
 #include <stdio.h>
-int findFirstPeak(int arr[], int n) {
+int FirstPeak(int arr[], int n){
     if (n == 1) return arr[0]; 
     if (arr[0] > arr[1]) return arr[0]; 
     if (arr[n - 1] > arr[n - 2]) return arr[n - 1]; 
@@ -10,7 +10,7 @@ int findFirstPeak(int arr[], int n) {
     }
     return -1;  
 }
-int main() {
+int main(){
     int n;
     scanf("%d", &n);
     int arr[n];
@@ -19,7 +19,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int peak = findFirstPeak(arr, n);
-    printf("%d\n", peak);
-    
+    printf("%d\n", Peak);
     return 0;
 }
